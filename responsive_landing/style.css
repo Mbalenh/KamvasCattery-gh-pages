@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  margin: 0.5em;
+  padding: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color:lightpink; */
+}
+
+
+.header{
+  /* display: flex ; */
+  text-align : center;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 20px;
+  /* background-color: blue; */
+  
+}
+  .name{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  
+  }
+  .title{
+    /* display: flex */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    }
+ /* ============================================*/
+
+.fl{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom:10px ;
+}
+/* ======================================== */
+.fl{
+  text-align: center;
+  margin-top: 50px;
+}
+.adopt{
+   display: flex;
+  
+
+}
+.place{
+  /* box-model */
+  /* border: 1px solid chocolate; */
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 1em;
+}
+
+
+.pic1{
+  float:left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  /* border: solid black 1px; */
+  padding: 2px;
+  height: 150px;
+  width: 150px;
+  border-radius: 1em;
+}
+.pic2{
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  /* border: solid black 1px; */
+  padding: 2px;
+  height: 150px;
+  width: 150px;
+  border-radius: 1em; 
+
+}
+.pic3{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  /*   */
+  padding: 2px;
+  height: 150px;
+  width: 150px;
+  border-radius: 1em;
+
+  
+}
+/* ====== */
+.come{
+  text-align: center;
+    margin-top: 50px;
+}
+.events{
+  display: flex;
+ 
+
+}
+.CAT{
+  /* box-model */
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 1em;
+}
+.cat1{
+  float:right;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  /* border: solid black 1px; */
+  padding: 2px;
+  height: 150px;
+  width: 150px;
+  border-radius: 1em;
+}
+.cat2{
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  /* border: solid black 1px; */
+  padding: 2px;
+  height: 150px;
+  width: 150px;
+  border-radius: 1em; 
+
+}
+/* about */
+.us{
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 10px;
+
+}
+.About{
+  border: 1px solid black;
+}
+
+/* =============media==================== */
+@media only screen and (max-width:1000px){
+  .header{
+      flex-direction: column;
+  }
+  .name{
+      margin-bottom: 20px;
+  }
+  .come{
+      text-align: center;
+  }
+  .events{
+      flex-direction:column ;
+      }
+      .fl{
+      text-align: center;
+      }
+
+  .pic2{
+
+      margin-right: 1em;
+
+  }
+
+  .pic1{
+      
+      margin-left: 1em;
+
+  }
+  .pic3{
+      margin-left: 1.5em;
+
+  }
+  h3{
+      margin-bottom: 5px;
+  }
+  .adopt{
+    flex-direction: column;
+  }
+  .About{
+    flex-direction: column;
+  
+  }
+  .event{
+
+    flex-direction: column;
+  }
+
+} 
